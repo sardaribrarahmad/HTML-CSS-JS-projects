@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.background
+{
+    background-image: url(./images/mountain.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    text-transform: uppercase;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.fa-solid.fa-gear{
+    font-size: 40px;
+}
+
+.s_content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.s_content input{
+    font-size: 30px;
+    border-radius: 30px;
+
+}
+button{
+    margin: 0 auto;
+    padding: 10px ;
+    color: white;
+    background-color:burlywood;
+    border: none;
+    margin-right: 40px;
+}
+.hide{
+    display: none;
+}
+
+
+.center{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 200px;
+}
+.center h1 {
+    font-size: 4rem;
+    margin-bottom: 70px;
+}
+.time_container{
+    display: flex;
+    justify-content: space-evenly;
+    gap:35px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.time_container div{
+    font-size: 4rem;
+    background-color: rgb(172, 171, 171);
+    color: aliceblue;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    min-width: 7rem;
+    max-width: 8rem;
+}
+.center h2{
+   font-size: 30px;
+}
